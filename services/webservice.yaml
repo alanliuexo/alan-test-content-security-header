@@ -1,5 +1,5 @@
 headers:
-  content-security-policy: "default-src * 'unsafe-inline' 'unsafe-eval' data: blob: *;"
+  content-security-policy: "frame-ancestors 'self'; img-src data: blob: *; media-src data: blob: *; default-src 'unsafe-eval' 'unsafe-inline' 'self' data: blob: ws: *.exosite.io fonts.googleapis.com cdn.jsdelivr.net cdn.mxpnl.com api.mixpanel.com fonts.gstatic.com"
 
 ## Default value
 #  content-security-policy: "frame-ancestors 'self'; img-src data: blob: *; media-src data: blob: *; default-src 'unsafe-inline' 'unsafe-eval' 'self' data: blob: fonts.googleapis.com"
